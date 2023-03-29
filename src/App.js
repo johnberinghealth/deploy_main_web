@@ -41,7 +41,7 @@ export default function CatchAllRoute() {
   // The following hypothetical 
   // <FourOhFour> is placeholder.
   if (notFound && !isPreviewingInBuilder) {
-    return <FourOhFour/>
+    return //</>
   }
 
   // return the page when found
